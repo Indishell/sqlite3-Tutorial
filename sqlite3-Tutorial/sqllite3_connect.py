@@ -44,7 +44,7 @@ def sql_update(con):
 
 con = sql_connection()
 sql_table(con)
-entities = [ (1616, 'Anurag Mishra', 85000, 'Tech', 'Engineering Manager', '2020-05-06')  , (1617, 'Rajesh Mishra', 135000, 'EXCV', 'Senior Manager', '1988-05-06')]
+entities = [ (1616, 'Anurag Mishra', 185000, 'Tech', 'Engineering Manager', '2020-05-06')  , (1617, 'Rajesh Mishra', 235000, 'EXCV', 'Senior Manager', '1988-05-06')]
 sql_insert(con, entities)
 
 sql_update(con)
